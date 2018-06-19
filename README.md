@@ -63,7 +63,7 @@ navigator.mediaDevices
       }
     });
 
-    this.p2p.onClose(uuid => {
+    p2p.onClose(uuid => {
       streams.forEach((item, key) => {
         if (item.getId() === uuid) {
           streams.splice(key, 1);
