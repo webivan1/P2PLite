@@ -1,1 +1,1 @@
-export * from './P2PLite'
+export * from './src/P2PLite'

@@ -2,9 +2,10 @@
   "name": "p2plite",
   "version": "0.0.1",
   "description": "Webrtc lite settings",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --colors --progress"
   },
   "keywords": [
     "webrtc",
@@ -19,7 +20,14 @@
   "author": "Ivan Maltsev (webivan1)",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "babel-loader": "^8.0.0-beta.3",
     "signalhub": "^4.9.0",
-    "simple-peer": "^9.1.2"
+    "simple-peer": "^9.1.2",
+    "webpack": "^4.12.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
   }
 }
