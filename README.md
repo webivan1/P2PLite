@@ -1,5 +1,6 @@
 # P2PLite
 Create p2p connections using webrtc and a signalhub
+Webrtc [simple-peer](https://github.com/feross/simple-peer)
 
 ## Install signal server ([signalhub](https://github.com/mafintosh/signalhub) or analog) 
 
