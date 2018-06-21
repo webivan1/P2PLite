@@ -60,7 +60,7 @@ export default class Peer {
       this.events.forEach(item => {
         let [eventName, handler] = item;
         if (eventName === data._eventName) {
-          let cloneData = {...data};
+          let cloneData = Object.assign({}, data);
           delete cloneData['_eventName'];
           handler(cloneData);
         }

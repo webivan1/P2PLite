@@ -1,6 +1,6 @@
 {
   "name": "p2plite",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Webrtc lite settings",
   "main": "src/index.js",
   "scripts": {
